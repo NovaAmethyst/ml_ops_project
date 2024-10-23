@@ -1,0 +1,5 @@
+services:
+  app:
+    build: ./app
+    ports:
+      - "6033:8000"
